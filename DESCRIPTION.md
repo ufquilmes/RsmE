@@ -1,32 +1,37 @@
-entropy.f: Fortran code estimate the conformational entropy of a macromolecule using the QHA.
-pmf.f:  Fortran code that computes the Potential of Mean Force from US simulations with the three algorithm: WHAM, DHAM and BAR. It also carries out the their sKL consistency test.
+# Towards the Rational Design of RsmE Small-RNA Binders: Insights from Molecular Dynamics Simulations
 
-RsmE-BM_1.top: Topology file corresponding to the RsmE-(BM)\_{1} model.
-RsmE-BM_1.crd: Coordinates file corresponding to the RsmE-(BM)\_{1} model.
+## Fortran codes
+- `entropy.f`: Estimates the conformational entropy of a macromolecule using the QHA.
+- `pmf.f`: Computes the Potential of Mean Force from US simulations using three algorithms: WHAM, DHAM, and BAR. It also performs the sKL consistency test.
 
-RsmE-BM_2.top: Topology file corresponding to the RsmE-(BM)\_{2} model.
-RsmE-BM_2.crd: Coordinates file corresponding to the RsmE-(BM)\_{2} model.
+## RsmE-(BM) models
+- `RsmE-BM_1.top`: Topology file for RsmE-(BM)\_1.
+- `RsmE-BM_1.crd`: Coordinates file for RsmE-(BM)\_1.
+- `RsmE-BM_2.top`: Topology file for RsmE-(BM)\_2.
+- `RsmE-BM_2.crd`: Coordinates file for RsmE-(BM)\_2.
 
-RsmE-SL0_1.top: Topology file corresponding to the RsmE-(SL0)\_{1} model.
-RsmE-SL0_1.crd: Coordinates file corresponding to the RsmE-(SL0)\_{1} model.
+## RsmE-(SL0) models
+- `RsmE-SL0_1.top`: Topology file for RsmE-(SL0)\_1.
+- `RsmE-SL0_1.crd`: Coordinates file for RsmE-(SL0)\_1.
+- `RsmE-SL0_2.top`: Topology file for RsmE-(SL0)\_2.
+- `RsmE-SL0_2.crd`: Coordinates file for RsmE-(SL0)\_2.
 
-RsmE-SL0_2.top: Topology file corresponding to the RsmE-(SL0)\_{2} model.
-RsmE-SL0_2.crd: Coordinates file corresponding to the RsmE-(SL0)\_{2} model.
+## RsmE-(SL2) models
+- `RsmE-SL2_1.top`: Topology file for RsmE-(SL2)\_1.
+- `RsmE-SL2_1.crd`: Coordinates file for RsmE-(SL2)\_1.
+- `RsmE-SL2_2.top`: Topology file for RsmE-(SL2)\_2.
+- `RsmE-SL2_2.crd`: Coordinates file for RsmE-(SL2)\_2.
 
-RsmE-SL2_1.top: Topology file corresponding to the RsmE-(SL2)\_{1} model.
-RsmE-SL2_1.crd: Coordinates file corresponding to the RsmE-(SL2)\_{1} model.
+## RsmE-(SL3) models
+- `RsmE-SL3_1.top`: Topology file for RsmE-(SL3)\_1.
+- `RsmE-SL3_1.crd`: Coordinates file for RsmE-(SL3)\_1.
+- `RsmE-SL3_2.top`: Topology file for RsmE-(SL3)\_2.
+- `RsmE-SL3_2.crd`: Coordinates file for RsmE-(SL3)\_2.
 
-RsmE-SL2_2.top: Topology file corresponding to the RsmE-(SL2)\_{2} model.
-RsmE-SL2_2.crd: Coordinates file corresponding to the RsmE-(SL2)\_{2} model.
+## RsmE-(SL2lSL2) model
+- `RsmE-SL2lSL2.top`: Topology file for RsmE-(SL2lSL2).
+- `RsmE-SL2lSL2.crd`: Coordinates file for RsmE-(SL2lSL2).
 
-RsmE-SL3_1.top: Topology file corresponding to the RsmE-(SL3)\_{1} model.
-RsmE-SL3_1.crd: Coordinates file corresponding to the RsmE-(SL3)\_{1} model.
-
-RsmE-SL3_2.top: Topology file corresponding to the RsmE-(SL3)\_{2} model.
-RsmE-SL3_2.crd: Coordinates file corresponding to the RsmE-(SL3)\_{1} model.
-
-RsmE-SL2lSL2.top: Topology file corresponding to the RsmE-(SL2lSL2) model.
-RsmE-SL2lSL2.crd: Coordinates file corresponding to the RsmE-(SL2lSL2) model.
-
-SL2.top: Topology file corresponding to the SL2 model.
-SL2.crd: Coordinates file corresponding to the SL2 model.
+## SL2 model
+- `SL2.top`: Topology file for SL2.
+- `SL2.crd`: Coordinates file for SL2.
